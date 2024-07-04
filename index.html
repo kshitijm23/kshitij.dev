@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
+
+        <!--=============== BOXICONS ===============-->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+        <!--=============== SWIPER CSS ===============-->
+        <link rel="stylesheet" href="">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="./assets/css/styles.css">
+        <script src="https://smtpjs.com/v3/smtp.js">
+        </script>
+
+        <title> Kshitij Portfolio </title>
+    </head>
+    <body>
+        <!--=============== HEADER ===============-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">Kshitij</a>
+                <div class="nav__menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class='bx bx-home-alt'></i>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">
+                                <i class='bx bx-user'></i>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class='bx bx-book'></i>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#work" class="nav__link">
+                                <i class='bx bx-briefcase' ></i>
+                            </a>
+                        </li>
+                        
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">
+                                <i class='bx bx-message-square-detail'></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- theme change button -->
+                <i class='bx bx-moon change-theme' id="theme-button"></i>
+            </nav>
+        </header>
+
+        <!--=============== MAIN ===============-->
+        <main class="main">
+            <!--=============== HOME ===============-->
+            <section class="home section" id="home">
+                <div class="home container container grid">
+                    <div class="home__data">
+                        <span class="home__greeting">Hello I'm</span>
+                        <h1 class="home__name">Kshitij Mahajan!👋
+                        </h1>
+                        <h3 class="home__education">Computer Science Engineer</h3>
+
+                        <div class="home__buttons">
+                            <a download="" href="./assets/pdf/Kshitij Bhushan Mahajan CV-.pdf" class="button button--ghost">
+                                Download CV
+                            </a>
+                            <a href="#about" class="button">About me</a>
+                        </div>
+                    </div>
+                    <div class="home__handle">
+                        <img src="assets/img/bgrem11111.png" alt="" class="home__img">
+                    </div>
+                    <div class="home__social">
+                        <a href="https://www.linkedin.com/in/kshitij-mahajan-17814221a" target="_blank" class="home__social-link">
+                            <i class='bx bxl-linkedin-square'></i>
+                        </a>
+                        <a href="https://github.com/kshitijm23" target="_blank" class="home__social-link">
+                            <i class='bx bxl-github'></i>
+                        </a>
+                        <a href="https://www.instagram.com/kceee_23/" target="_blank" class="home__social-link">
+                            <i class='bx bxl-instagram'></i>
+                        </a>
+                    </div>
+                    <a href="#about" class="home__scroll">
+                        <i class='bx bx-mouse home__scroll-icon'></i>
+                        <span class="home__scroll-name">Scroll Down</span>
+                    </a>
+                </div>
+                
+            </section>
+            
+            <!--=============== ABOUT ===============-->
+            <section class="about section" id="about">
+                <span class="section__subtitle">My Intro</span>
+                <h2 class="section__title">About Me</h2>
+
+                <div class="about__container container grid">
+                    <img src="assets/img/_DSC3656_2 (1).jpg" alt="" class="about__img">
+                    
+                    <div class="about__data">
+                        <div class="about__info">
+                            <div class="about__box">
+                                
+                                <a href="#skills"><i class='bx bxs-book about__icon'></i></a>
+                                <h3 class="about__title">Education/ <br> Skills</h3>
+                                <span class="about__subtitle" id="absk">MS in CS <br> CGPA: 3.86/4</span>
+                            </div>
+
+                            <div class="about__box">
+                                <a href="#work"><i class='bx bx-briefcase-alt about__icon'></i></a>
+                                <h3 class="about__title">Completed</h3>
+                                <span class="about__subtitle" id= "absk">4 Projects</span>
+                            </div>
+
+                            <div class="about__box">
+                                <i class='bx bx-award about__icon'></i>
+                                <!-- <i class='bx bxs-edit-location about__icon'></i> -->
+                                <h3 class="about__title">Internships</h3>
+                                <span class="about__subtitle">6 months internship as a Web Developer</span>
+                            </div>
+                        </div>
+                        <p class="about__description">
+                            Frontend developer...  I am graduate Computer Science and Engineering student (Pace University, NYC) and a learning Fullstack developer with an interest in Frontend development, ready to use my technical as well as soft skills in a work environment that explores new and creative ideas along with creative people to expand further and enhance my learnings, knowledge, and skills.
+                        </p>
+
+                        <a href="#contact" class="button">Contact Me</a>
+                    </div>
+
+
+                </div>
+                
+            </section>
+
+            <!--=============== SKILLS ===============-->
+            <section class="skills section" id="skills">
+                <span class="section__subtitle">Personal Information</span>
+                <h2 class="section__title">Educational Details</h2>
+
+                <div class="skills__container container grid">
+                    
+
+                    <div class="skills__content">
+                        <h3 class="skills__title">Pace University, New York City, <br>Master of Science</h3>
+
+                        <div class="skills__box">
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <!-- <i class='bx bxs-book'></i> -->
+                                    <i class='bx bxs-badge-check'></i>
+
+                                    <div>
+                                        <h3 class="skills__name" id="cse">MS in Computer Science</h3>
+                                        <span class="skills__name" id="cse"><br> </span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <!-- <i class='bx bxs-book'></i> -->
+                                    <i class='bx bxs-badge-check'></i>
+
+                                    <div>
+                                        <h3 class="skills__name" id="cse">Year of completion  </h3>
+                                        <span class="skills__name" id="cse">May, 2025<br></span>
+                                    </div>
+                                </div>
+
+                                <!-- <div class="skills__data">
+                                    <i class='bx bxs-badge-check'></i>
+                                    <i class='bx bxs-book'></i>
+
+                                    <div>
+                                        <h3 class="skills__name">CGPA: 9.5</h3>
+                                        <span class="skills__level"><br></span>
+                                    </div>
+                                </div> -->
+
+                            </div>
+
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class='bx bxs-badge-check'></i>
+                                    <!-- <i class='bx bxs-book'></i> -->
+                                    <div>
+                                        <h3 class="skills__name" id="cse">CGPA </h3>
+                                        <span class="skills__name" id="cse">3.86/4</span>
+                                      </div>
+                                </div>
+
+                                <!-- <div class="skills__data">
+                                    <i class='bx bxs-badge-check'></i>
+
+                                    <div>
+                                        <h3 class="skills__name">C++</h3>
+                                        <span class="skills__level">Advanced</span>
+                                    </div>
+                                </div> -->
+
+                                <div class="skills__data">
+                                    <!-- <i class='bx bxs-badge-check'></i> -->
+                                    <!-- <i class='bx bxs-book'></i> -->
+                                    <div>
+                                        <h3 class="skills__name"></h3>
+                                        <span class="skills__name"></span>
+                                    </div>
+                                </div>
+
+                                
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills__content">
+                        <h3 class="skills__title">Rajiv Gandhi College of Engineering and Research, <br>Bachelor of Engineering</h3>
+
+                        <div class="skills__box">
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <!-- <i class='bx bxs-book'></i> -->
+                                    <i class='bx bxs-badge-check'></i>
+
+                                    <div>
+                                        <h3 class="skills__name" id="cse">Computer Science and <br> Engineering</h3>
+                                        <span class="skills__name" id="cse"><br> </span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <!-- <i class='bx bxs-book'></i> -->
+                                    <i class='bx bxs-badge-check'></i>
+
+                                    <div>
+                                        <h3 class="skills__name" id="cse">Year of completion  </h3>
+                                        <span class="skills__name" id="cse">2022<br></span>
+                                    </div>
+                                </div>
+
+                                <!-- <div class="skills__data">
+                                    <i class='bx bxs-badge-check'></i>
+                                    <i class='bx bxs-book'></i>
+
+                                    <div>
+                                        <h3 class="skills__name">CGPA: 9.5</h3>
+                                        <span class="skills__level"><br></span>
+                                    </div>
+                                </div> -->
+
+                            </div>
+
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class='bx bxs-badge-check'></i>
+                                    <!-- <i class='bx bxs-book'></i> -->
+                                    <div>
+                                        <h3 class="skills__name" id="cse">CGPA </h3>
+                                        <span class="skills__name" id="cse">9.5/10</span>
+                                      </div>
+                                </div>
+
+                                <!-- <div class="skills__data">
+                                    <i class='bx bxs-badge-check'></i>
+
+                                    <div>
+                                        <h3 class="skills__name">C++</h3>
+                                        <span class="skills__level">Advanced</span>
+                                    </div>
+                                </div> -->
+
+                                <div class="skills__data">
+                                    <!-- <i class='bx bxs-badge-check'></i> -->
+                                    <!-- <i class='bx bxs-book'></i> -->
+                                    <div>
+                                        <h3 class="skills__name"></h3>
+                                        <span class="skills__name"></span>
+                                    </div>
+                                </div>
+
+                                
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills__content">
+                        <h3 class="skills__title">Technical Skills</h3>
+
+                        <div class="skills__box">
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class='bx bxl-html5' ></i>
+                                    <!-- <i class='bx bxs-badge-check'></i> -->
+
+                                    <div>
+                                        <h3 class="skills__name">HTML/CSS</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class='bx bxl-javascript' ></i>
+                                    <!-- <i class='bx bxs-badge-check'></i> -->
+
+                                    <div>
+                                        <h3 class="skills__name">Javascript</h3>
+                                        <span class="skills__level">Basic</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <!-- <i class='bx bxs-badge-check'></i> -->
+                                    <i class='bx bxl-java'></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Java</h3>
+                                        <span class="skills__level">Basic</span>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <!-- <i class='bx bxs-badge-check'></i> -->
+                                    <i class='bx bxl-c-plus-plus' ></i>
+                                    <div>
+                                        <h3 class="skills__name">C/C++ </h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+
+                                <!-- <div class="skills__data">
+                                    <i class='bx bxs-badge-check'></i>
+
+                                    <div>
+                                        <h3 class="skills__name">C++</h3>
+                                        <span class="skills__level">Advanced</span>
+                                    </div>
+                                </div> -->
+
+                                <div class="skills__data">
+                                    <!-- <i class='bx bxs-badge-check'></i> -->
+                                    <i class='bx bxs-file' ></i>
+                                    <div>
+                                        <h3 class="skills__name">SQL</h3>
+                                        <span class="skills__level">Basic</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <!-- <i class='bx bxs-badge-check'></i> -->
+                                    <i class='bx bxl-python' ></i>
+                                    <div>
+                                        <h3 class="skills__name">Python</h3>
+                                        <span class="skills__level">Basic</span>
+                                    </div>
+                                </div>
+
+                                <!-- <div class="skills__data">
+                                    <i class='bx bxs-badge-check'></i>
+
+                                    <div>
+                                        <h3 class="skills__name">SQL</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div> -->
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    
+
+                    <div class="skills__content">
+                        <h3 class="skills__title">Framework/Tools</h3>
+
+                        <div class="skills__box">
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class='bx bx-code-block'></i>
+
+                                    <div>
+                                        <h3 class="skills__name">React</h3>
+                                        
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class='bx bx-code-block'></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Ionic</h3>
+                                       
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class='bx bx-code-block'></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Firebase</h3>
+                                        
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class='bx bx-code-block'></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Git</h3>
+                                        
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    
+                                    <i class='bx bx-code-block'></i>
+
+                                    <div>
+                                        <h3 class="skills__name">MySQL</h3>
+                                        
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="skills__group">
+                                
+
+                                <div class="skills__data">
+                                    <!-- <i class='bx bx-code-block'></i> -->
+                                    <i class='bx bx-code-block'></i>
+                                    <div>
+                                        <h3 class="skills__name">Visual Studio Code</h3>
+                                       
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class='bx bx-code-block'></i>
+
+                                    <div>
+                                        <h3 class="skills__name">IntelliJ Idea</h3>
+                                  
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class='bx bx-code-block'></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Oracle DBMS</h3>
+                              
+                                    </div>
+                                </div>
+
+                                
+
+                                
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                    <!-- <div class="skills__content">
+                        <h3 class="skills__title">My Interests</h3>
+
+                        <div class="skills__box">
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <a href="https://www.instagram.com/kceee_23/reels/" target="_blank"><i class='bx bxs-microphone-alt'></i></a>
+
+                                    <div>
+                                        <h3 class="skills__name">Singing</h3>
+                                        
+                                    </div>
+                                </div>
+
+                                
+
+                                <div class="skills__data">
+                                    <a href="https://www.instagram.com/photo_fiends_/" target="_blank"><i class='bx bx-aperture'></i></a>
+
+                                    <div>
+                                        <h3 class="skills__name">Photography</h3>
+                                       
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <a href="https://www.instagram.com/accio_diagonalley/" target="_blank"><i  class='bx bxl-instagram' ></i></a>
+
+                                    <div>
+                                    <h3 class="skills__name">Handmade Merchandise Business</h3>
+                                       </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class='bx bxs-magic-wand'></i>
+                                    <div>
+                                        <h3 class="skills__name">DIY clay modelling</h3>
+                                      </div>
+                                </div>
+
+
+                            </div>
+
+                            <div class="skills__group">
+                                
+                                <div class="skills__data">
+                                    <i class='bx bx-football'></i>
+                                    <div>
+                                        <h3 class="skills__name">Soccer</h3>
+       </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class='bx bx-store'></i>
+                                    <div>
+                                        <h3 class="skills__name">Volunteer work at an NGO</h3>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class='bx bx-joystick-alt'></i>
+                                    <div>
+                                        <h3 class="skills__name">Gaming</h3>
+                                    </div>
+                                </div>
+
+                                
+
+                                
+                                
+                            </div>
+                        
+                        </div>
+                    </div> -->
+                </div>
+            </section>
+
+            <!--=============== SERVICES ===============-->
+            <section class="services section" id="work" >
+               <span class="section__subtitle">Work</span>
+               <h2 class="section__title">My Projects</h2>
+
+               <div class="services__container container grid">
+                    <div class="services__card" id="p1">
+
+                        
+                        <h3 class="services__title">Wearable Obstacle Sensing System for Visually Impaired Person</h3>
+                        <span class="services__button">
+                            See more <i class='bx bx-right-arrow-alt services__icon'></i>
+                        </span>
+
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <i class='bx bx-x services__modal-close'></i>
+
+                                <h3 class="services__modal-title">Wearable Obstacle Sensing System for Visually Impaired Person</h3>
+                                <p class="services__modal-description">
+                                    An IOT based system, interfaced with a mobile application, which would alert the user about any hazardous obstacles in their path with the help of synthetic voice commands as well as can be used to locate the users’ location in times of his distress.
+                                </p>
+                                <img src="./assets/img/radar.jpg" alt="" id="blindimg">
+                                <!-- <img src="./assets/img/proj.png" alt="" id="blindimg"> -->
+                                <!-- <ul class="services__modal-list">
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check services__modal-icon'></i>
+                                        <p class="services__modal-info">
+                                            I develop the user interface
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check services__modal-icon'></i>
+                                        <p class="services__modal-info">
+                                            Web page devlopment
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check services__modal-icon'></i>
+                                        <p class="services__modal-info">
+                                            i create ui/ux
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check services__modal-icon'></i>
+                                        <p class="services__modal-info">
+                                            position your company brand
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check services__modal-icon'></i>
+                                        <p class="services__modal-info">
+                                            
+                                        </p>
+                                    </li>
+                                </ul> -->
+                            </div>
+                    
+                        </div>
+                    </div>
+
+                    <div class="services__card" id="p2">
+                        <h3 class="services__title">Ecommerce Website for a Handmade Merchandise Business</h3>
+                        <span class="services__button">
+                            See more <i class='bx bx-right-arrow-alt services__icon'></i>
+                        </span>
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <i class='bx bx-x services__modal-close'></i>
+
+                                <h3 class="services__modal-title">Ecommerce Website for a Handmade Merchandise Business</h3>
+                                <p class="services__modal-description">
+                                    Designed a webpage for my own handmade merchandise and collectibles business.
+                                    Used HTML, CSS and JS. <br>Link: <a href="https://accio-diagon-alley.vercel.app">https://accio-diagon-alley.vercel.app</a>
+                                            
+                                </p>
+                                <p class="services__modal-description"> </p>
+                                <video autoplay loop width="460" src="./assets/img/Accio Diagon Alley.webm" id="ecom"></video>
+                                <!-- <ul class="services__modal-list">
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check services__modal-icon'></i>
+                                        <p class="services__modal-info">
+                                            I develop the user interface
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check services__modal-icon'></i>
+                                        <p class="services__modal-info">
+                                            Web page devlopment
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check services__modal-icon'></i>
+                                        <p class="services__modal-info">
+                                            i create ui/ux
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check services__modal-icon'></i>
+                                        <p class="services__modal-info">
+                                            position your company brand
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check services__modal-icon'></i>
+                                        <p class="services__modal-info">
+                                            
+                                        </p>
+                                    </li>
+                                </ul> -->
+                            </div>
+                    
+                        </div>
+                    </div>
+
+                    <div class="services__card" id="p3">
+                        <h3 class="services__title">Urban Alert- A React Ionic Web App</h3>
+                        <span class="services__button">
+                            See more <i class='bx bx-right-arrow-alt services__icon'></i>
+                        </span>
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <i class='bx bx-x services__modal-close'></i>
+
+                                <h3 class="services__modal-title">Urban Alert- A React Ionic Web App</h3>
+                                <p class="services__modal-description">
+                                    Urban Alert is a mobile app that allows users to report various issues they encounter in their surroundings, such as potholes, water leakages, and garbage spills. Through React, Ionic, and geolocation APIs, Urban Alert delivers a seamless user experience, ensuring compatibility across different devices and platforms. <br>Link: <a href="https://finalurbanalert.web.app">https://finalurbanalert.web.app</a>
+  </p>                              
+                                <img src="./assets/img/UrbAl.png" alt="" id="blindimg">
+                                <!-- <ul class="services__modal-list">
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check services__modal-icon'></i>
+                                        <p class="services__modal-info">
+                                            I develop the user interface
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check services__modal-icon'></i>
+                                        <p class="services__modal-info">
+                                            Web page devlopment
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check services__modal-icon'></i>
+                                        <p class="services__modal-info">
+                                            i create ui/ux
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check services__modal-icon'></i>
+                                        <p class="services__modal-info">
+                                            position your company brand
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check services__modal-icon'></i>
+                                        <p class="services__modal-info">
+                                            
+                                        </p>
+                                    </li>
+                                </ul> -->
+                            </div>
+                    
+                        </div>
+                    </div>
+
+                    <div class="services__card" id="p4">
+                        <h3 class="services__title">Patient Index Form Generator at Multispecialty Hospitals</h3>
+                        <span class="services__button">
+                            See more <i class='bx bx-right-arrow-alt services__icon'></i>
+                        </span>
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <i class='bx bx-x services__modal-close'></i>
+
+                                <h3 class="services__modal-title">Patient Index Form Generator at Multispecialty Hospitals</h3>
+                                <p class="services__modal-description">
+                                    A patient form generator that fetches data from a web app and populates a form field.
+                                    Used HTML, CSS, JS, JSON <br> Link:<a href="https://ptina-kshitijs-projects-2c0cffdc.vercel.app">https://ptina-kshitijs-projects-2c0cffdc.vercel.app/</a>
+                                
+                                </p>
+                                <video autoplay loop src="./assets/img/pat.mp4" id="ecom"></video>
+                                <!-- <ul class="services__modal-list">
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check services__modal-icon'></i>
+                                        <p class="services__modal-info">
+                                            I develop the user interface
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check services__modal-icon'></i>
+                                        <p class="services__modal-info">
+                                            Web page devlopment
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check services__modal-icon'></i>
+                                        <p class="services__modal-info">
+                                            i create ui/ux
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check services__modal-icon'></i>
+                                        <p class="services__modal-info">
+                                            position your company brand
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check services__modal-icon'></i>
+                                        <p class="services__modal-info">
+                                            
+                                        </p>
+                                    </li>
+                                </ul> -->
+                            </div>
+                    
+                        </div>
+                    </div>
+
+
+               </div>
+            </section>
+
+            <!--=============== WORK ===============-->
+            <!-- <section class="work section" id="work">
+                
+            </section> -->
+
+            <!--=============== TESTIMONIALS ===============-->
+            <!-- <section class="testimonial section">
+                
+            </section> -->
+
+            <!--=============== CONTACT ===============-->
+            <section class="contact section" id="contact">
+                <span class="section__subtitle">Get in touch</span>
+                <h2 class="section__title">Contact Me</h2>
+
+                <div class="contact__container container grid">
+                    <div class="contact__content">
+                        <h3 class="contact__title">Talk to me</h3>
+
+                        <div class="contact__info">
+                            <div class="contact__card">
+                                <i class='bx bxl-gmail contact__card-icon' ></i>
+                                <h3 class="contact__card-title">Email</h3>
+                                <span class="contact__card-data">kshitijmahajan.ngp@gmail.com</span>
+
+                                <a href="mailto:kshitijmahajan.ngp@gmail.com" target="blank" class="contact__button">
+                                    Write me <i class='bx bx-right-arrow-alt contact__button-icon' ></i>
+                                </a>
+                            </div>
+
+                            <div class="contact__card">
+                                <i class='bx bxl-linkedin-square contact__card-icon' ></i>
+                                <h3 class="contact__card-title">Linkedin</h3>
+                                <!-- <span class="contact__card-data">https://www.linkedin.com/in/kshitij-mahajan-17814221a/</span> -->
+
+                                <a href="https://www.linkedin.com/in/kshitij-mahajan-17814221a/" target="blank" class="contact__button">
+                                    Write me <i class='bx bx-right-arrow-alt contact__button-icon' ></i>
+                                </a>
+                            </div>
+
+                            <div class="contact__card">
+                                <i class='bx bxl-whatsapp contact__card-icon' ></i>
+                                <h3 class="contact__card-title">Whatsapp</h3>
+                                <span class="contact__card-data">9921169958</span>
+
+                                <a href="https://api.whatsapp.com/send?phone=919921169958&text=Hello, more information!" target="blank" class="contact__button">
+                                    Write me <i class='bx bx-right-arrow-alt contact__button-icon' ></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact__content">
+                        <h3 class="contact__title">Write to me about <br> collab on projects</h3>
+
+                        <form  class="contact__form" method="post" name="myemailform" onsubmit="SubmitEvent">
+                            <div class="contact__form-div">
+                                <label for="name" class="contact__form-tag">Name</label>
+                                <input type="text" placeholder="Insert your name" class="contact__form-input" name="name" id="nn">
+                            </div>
+
+                            <div class="contact__form-div">
+                                <label for="email" class="contact__form-tag">Mail</label>
+                                <input type="email" placeholder="Enter your email" class="contact__form-input" name="email" id="ee">
+                            </div>
+
+                            <div class="contact__form-div contact__form-area">
+                                <label for="idea" class="contact__form-tag">Project Idea</label>
+                                <!-- <input type="text" class="contact__form-input"> -->
+                                <textarea name="idea" id="mm" cols="30" rows="10" placeholder="Write your project idea" class="contact__form-input"></textarea>
+                            </div>
+
+                            <button class="button" id="bb" type="submit">Send Message</button>
+                            <!-- <input type="submit" class="button" placeholder="Send Message"> -->
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--=============== FOOTER ===============-->
+        <footer class="footer">
+            <div class="footer__container container grid">
+                <h1 class="footer__title">Kshitij</h1>
+
+                <ul class="footer__list">
+                    <li>
+                        <a href="#about" class="footer__link">About</a>
+                    </li>
+
+                    <li>
+                        <a href="#work" class="footer__link">Projects</a>
+                    </li>
+
+                    <li>
+                        <a href="#contact" class="footer__link">Contact Me</a>
+                    </li>
+                </ul>
+
+                <ul class="footer__social">
+                    <a href="https://www.instagram.com/kceee_23/" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-instagram'></i>
+
+                    </a>
+                    <a href="mailto:kshitijmahajan.ngp@gmail.com" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-gmail'></i>
+
+                    </a>
+                    <a href="https://www.linkedin.com/in/kshitij-mahajan-17814221a" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-linkedin' ></i>
+
+                    </a>
+                </ul>
+                <span class="footer__copy">
+                    &#169;2023 Kshitij. All Rights Reserved
+                </span>
+            </div>
+        </footer>
+
+        <!--=============== SCROLLREVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+
+        <!--=============== SWIPER JS ===============-->
+        <script src=""></script>
+
+        <!--=============== MIXITUP FILTER ===============-->
+        <script src=""></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="./assets/js/main.js"></script>
+
+
+        
+    </body>
+</html>
